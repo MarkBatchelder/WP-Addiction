@@ -1,6 +1,6 @@
 /*!
-Theme Name:		Marker Child
-Theme URI:		https://github.com/WPAddiction/marker
+Theme Name:		WP Addiction
+Theme URI:		https://github.com/WPAddiction/WP-Addiction
 Author:			Web First Designs
 Author URI:		http://WebFirstDesigns.com
 Description:	Starter child theme for Marker
@@ -8,7 +8,7 @@ Tags:
 Version:		1.2.3
 License:		GNU General Public License v2 or later
 License URI:	http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:	marker-child
+Text Domain:	wp-addiction
 Template:		marker
 
 Marker is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
@@ -176,9 +176,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 6.0 Layouts
 --------------------------------------------------------------*/
-@import "layout/content-sidebar";
-// @import "layout/sidebar-content";
-// @import "layout/content";
+@import "layout/sidebar-content";
 
 /*--------------------------------------------------------------
 7.0 Site Background & Borders
