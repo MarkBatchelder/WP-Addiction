@@ -1,39 +1,46 @@
 #page {
 	max-width: $size__site;
-	margin: 0 auto;
+	margin: $margin__site;
+    padding: $padding__site;
 }
 
 #masthead { // Header
 	clear: both;
+    float: right;
 	width: $size__site-header;
+    direction: rtl;
     
     #top-navigation { // .secondary-navigation
+        z-index: 10;
         clear: both;
         display: block;
-        float: left;
+        position: fixed;
+        float: right;
         width: $size__site-top-nav;
+        direction: ltr;
     }
     
     #logo {
-        clear: both;
+        clear: right;
+        display: block;
+        float: right;
         width: $size__site-logo;
+        direction: ltr;
     }
     
     #primary-navigation { // .main-navigation
-        clear: both;
-        display: block;
-        float: left;
-        width: $size__site-main-nav;
+        display: none;
     }
 }
 
 #content { // Content
-	clear: both;
+	clear: left;
+    float: left;
 	width: $size__site-content;
 
     #primary { // .content-area
         float: right;
-        width: 100%;
+        width: $size__content-area;
         margin: 0 0 0 (-$size__site-secondary);
 
         #main { // .site-main
@@ -59,7 +66,7 @@
 }
 
 #colophon { // Footer
-	clear: both;
+	clear: left;
 	width: $size__site-footer;
 
     #credits {
