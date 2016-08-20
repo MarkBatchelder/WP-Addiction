@@ -1,41 +1,44 @@
 /* Defaults */
 
-$default-height: 4rem;
-$default-width: 4rem;
+$default-height: 2.5rem;
+$default-width: 2.5rem;
 
 
 /* body */
 
-$size__site: 1080px;
+$size__site: 1200px;
+$margin__site: 0 auto;
+$padding__site: 0;
 
-$size__site-header: 100%;
-    $size__site-top-nav: 100%;
+$size__site-header: 15%;
+    $size__site-top-nav: $size__site;
     $size__site-logo: 100%;
     $size__site-main-nav: 100%;
-$size__site-content: 100%;
+$size__site-content: 85%;
+    $size__content-area: 100%;
     $size__site-secondary: 25%;  // Sidebar
     $size__site-tertiary: 100%;
-$size__site-footer: 100%;
+$size__site-footer: 85%;
 
 
 /* Top Navigation */
 
 $margin__secondary-nav: 0;
-$padding__secondary-nav: 0 1rem;
-$padding__secondary-nav-link-vertical: 5px;
-$padding__secondary-nav-link-horizontal: 1rem; // $padding__secondary-nav + $padding__secondary-nav-link-horizontal = spacing__secondary-area
+$padding__secondary-nav: 0 2rem;
+$padding__secondary-nav-link-vertical: 10px;
+$padding__secondary-nav-link-horizontal: 2rem; // $padding__secondary-nav + $padding__secondary-nav-link-horizontal = spacing__secondary-area
 
-$top__secondary-nav-dropdown: 28px;
+$top__secondary-nav-dropdown: 41px;
 $margin-top__secondary-nav-dropdown: $margin-top__secondary-nav-dropdown-border-fix; // Variable defined in colors.scss.
 
-$width__secondary-nav-dropdown: 150px;
-$padding__secondary-nav-dropdown: 2.5px $padding__secondary-nav-link-horizontal; // Verticle is half of $padding__secondary-nav-link-vertical.
+$width__secondary-nav-dropdown: 200px;
+$padding__secondary-nav-dropdown: 5px $padding__secondary-nav-link-horizontal; // Verticle is half of $padding__secondary-nav-link-vertical.
 
 
 /* Header */
 
-$margin__branding: $default-height $default-width;
-$padding--branding: 0;
+$margin__branding: ($default-height * 2) 0;
+$padding__branding: 0;
 
 
 /* Main Navigation */
@@ -53,6 +56,9 @@ $padding__primary-nav-dropdown: 5px $padding__primary-nav-link-horizontal; // Ve
 
 
 /* Content Area */
+
+$margin__content: 60px 0 0;
+$padding__content: 0;
 
 $margin__primary: 0;
 $padding__primary: 0;
@@ -109,10 +115,10 @@ $spacing__widget-list-left: ($spacing__element-horizontal / 2);
 /* Sidebar Widget Area */
 
 $margin__secondary-area: 0 $margin__secondary-column-border-fix 0 (-$margin__secondary-column-border-fix); // Variable defined in colors.scss.
-$padding__secondary-area: 3rem 1rem;
+$padding__secondary-area: ($default-height / 2) ($default-width / 2);
 
 $margin__secondary-widget: 0;
-$padding__secondary-widget: 1rem;
+$padding__secondary-widget: ($default-height / 2) ($default-width / 2);
 
 
 /* Footer Widget Area */

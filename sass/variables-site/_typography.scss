@@ -1,8 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Amiri:400,700);
+
+
 /* Defaults */
 
-$title-font: Arial, Helvetica Neue, Helvetica, sans-serif;
+$title-font: Amiri, Georgia, Times, Times New Roman, serif;
 
-$main-font: Georgia, Times, Times New Roman, serif;
+$main-font: Arial, Helvetica Neue, Helvetica, sans-serif;
 
 $menu-font: Arial, Helvetica Neue, Helvetica, sans-serif;
 
@@ -19,7 +22,7 @@ $font__line-height-body: 1.5;
 /* Top Navigation */
 
 $font__secondary-nav: $menu-font;
-$font__size-secondary-nav: 0.75;
+$font__size-secondary-nav: 0.875;
 
 
 /* Header */
