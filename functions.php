@@ -106,7 +106,7 @@ add_action( 'after_setup_theme', 'marker_setup' );
  * @global int $content_width
  */
 function marker_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'marker_content_width', 730 );
+	$GLOBALS['content_width'] = apply_filters( 'marker_content_width', 685 );
 }
 add_action( 'after_setup_theme', 'marker_content_width', 0 );
 
